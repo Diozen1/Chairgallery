@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Racines Design Store</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+</head>
+
+<body>   
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="logo">
+            <img src="./images/logo.png" alt="Racines Design Store Logo">
+        </div>
+        <div class="nav-links">
+            <a href="#home">Home</a>
+            <a href="#sale">Sale</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <img src="https://pg-edtr.archiproducts.com/desktop_2520x1050_b30c20de-e695-4c3e-b96d-e7d60cb9534c.jpg" alt="Racines Design Store Hero Image">
+        <div class="hero-title">
+            <h1></h1>
+            <p class="sub-title"></p>
+        </div>
+    </section>
+    
+    <!-- Content Section -->
+    <section class="products">
+        <h2>Designer Chairs Gallery</h2>
+        <div class="product-grid">
+           
+            
+            <div class="product-card">
+                <h3>Chair 1</h3>
+                <model-viewer src="/models/01Chair.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls poster="/images/chair-Camera.png" shadow-intensity="1">
+                    <button class="Hotspot" slot="hotspot-1" data-position="0.002034855848521512m 0.45616769129548385m 0.1861089152203972m" data-normal="0.0022636460309720195m 0.9999909028398342m 0.003615265442527453m" data-visibility-attribute="visible">
+                        <div class="HotspotAnnotation">Ultimate comfort</div>
+                    </button>
+                    <button class="Hotspot" slot="hotspot-2" data-position="0.001475187304524339m 0.7427085862868041m -0.30138405647228383m" data-normal="-0.02528453815985021m 0.45337742961856853m 0.8909599308849433m" data-visibility-attribute="visible">
+                        <div class="HotspotAnnotation">Modern chic</div>
+                    </button>
+                    <div class="progress-bar hide" slot="progress-bar">
+                        <div class="update-bar"></div>
+                    </div>
+                    <button slot="ar-button" id="ar-button">View in your space</button>
+                    <div id="ar-prompt">
+                        <img src="https://modelviewer.dev/shared-assets/icons/hand.png">
+                    </div>
+                </model-viewer>
+            </div>
+            
+            <div class="product-card">
+                <h3>Chair 2</h3>
+                <model-viewer src="/models/02Chair.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls poster="/images/chair-Camera.png" shadow-intensity="1">
+                    <button class="Hotspot" slot="hotspot-1" data-position="0.002034855848521512m 0.45616769129548385m 0.1861089152203972m" data-normal="0.0022636460309720195m 0.9999909028398342m 0.003615265442527453m" data-visibility-attribute="visible">
+                        <div class="HotspotAnnotation">Ultimate comfort</div>
+                    </button>
+                    <button class="Hotspot" slot="hotspot-2" data-position="0.001475187304524339m 0.7427085862868041m -0.30138405647228383m" data-normal="-0.02528453815985021m 0.45337742961856853m 0.8909599308849433m" data-visibility-attribute="visible">
+                        <div class="HotspotAnnotation">Modern chic</div>
+                    </button>
+                    <div class="progress-bar hide" slot="progress-bar">
+                        <div class="update-bar"></div>
+                    </div>
+                    <button slot="ar-button" id="ar-button">View in your space</button>
+                    <div id="ar-prompt">
+                        <img src="https://modelviewer.dev/shared-assets/icons/hand.png">
+                    </div>
+                </model-viewer>
+            </div>
+            
+            <div class="product-card">
+                <h3>Chair 3</h3>
+                <model-viewer src="/models/03Chair.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls poster="/images/chair-Camera.png" shadow-intensity="1">
+                    <button class="Hotspot" slot="hotspot-1" data-position="0.002034855848521512m 0.45616769129548385m 0.1861089152203972m" data-normal="0.0022636460309720195m 0.9999909028398342m 0.003615265442527453m" data-visibility-attribute="visible">
+                        <div class="HotspotAnnotation">Ultimate comfort</div>
+                    </button>
+                    <button class="Hotspot" slot="hotspot-2" data-position="0.001475187304524339m 0.7427085862868041m -0.30138405647228383m" data-normal="-0.02528453815985021m 0.45337742961856853m 0.8909599308849433m" data-visibility-attribute="visible">
+                        <div class="HotspotAnnotation">Modern chic</div>
+                    </button>
+                    <div class="progress-bar hide" slot="progress-bar">
+                        <div class="update-bar"></div>
+                    </div>
+                    <button slot="ar-button" id="ar-button">View in your space</button>
+                    <div id="ar-prompt">
+                        <img src="https://modelviewer.dev/shared-assets/icons/hand.png">
+                    </div>
+                </model-viewer>
+            </div>
+        </div>    
+    </section>
+
+    <script src="./js/script.js"></script>
+</body>
+</html>
